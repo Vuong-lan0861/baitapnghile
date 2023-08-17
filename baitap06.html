@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Tinh tien thuong cuoi nam</h1>
+    <table>
+        <tr>
+            <td>
+                <label for="tienluong">Tien luong</label>
+            </td>
+            <td>
+                <input type="number" id="tienluong" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="xeploai" id="">Xep loai</label>
+            </td>
+            <td>
+                <select id="xeploai">
+                    <option value="A">Loai A</option>
+                    <option value="B">Loai B</option>
+                    <option value="C">Loai C</option>
+                    <option value="D">Loai D</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <button onclick="printResult()">Tinh</button>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <label id="ketqua"></label>
+            </td>
+        </tr>
+    </table>
+    <script src="./js/baitap06.js"></script>
+</body>
+
+</html>
